@@ -1,0 +1,16 @@
+// Diference between statically typed and dynamically typed languge. 
+Statically typed programming languages do type checking (i.e. the process of verifying data types) at compile-time as opposed to run-time. Examples of statically typed languages are :- Java, C, C++
+
+Dynamically typed programming languages do type checking at run-time as opposed to compile-time.
+Examples of dynamically typed languages are :- Perl, Ruby, Python, PHP, JavaScript
+
+//Difference between scripting and programming language.
+Scripting Language are dynamically typed languages. It is not compiled before run-time. Examples of scripting language are Javascript, python, php.
+
+Programming Language are statically typed languages. It is compiled before run-time. Examples of programming languages are - Java, C, C++
+
+//Difference between HTTP1 and HTTP2
+HTTP2 is binary but HTTP1 textual.
+HTTP2 is fully multiplexed, instead of ordered and blocking. 
+HTTP2 allows servers to “push” responses proactively into client caches.
+HTTP2 is faster than HTTP1.

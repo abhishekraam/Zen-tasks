@@ -1,0 +1,36 @@
+//Difference between Browser Javascript and NodeJs.
+1.B Javascript can only be run in the browsers where as, NodeJS is a cross-platform runtime environment usually server-side.
+2.B Javascript is used on the client-side but NodeJs is mostly used on the server-side.
+3.B Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox whereas Nodejs can only run in V8 engine of google chrome.
+4.B Javascript is used in frontend development but Nodejs is basically used in server-side development.
+5.B Javascript uses ECMA script but nodejs uses common Javascript modules.
+6.B Javscript has access to Window, Document object where as NodeJs does not.
+
+//Is it necessary to use HTML, Head, Body tags?
+It is not necessary under some sepcific conditons like --
+-An html element's start tag may be omitted if the first thing inside the html element is not a comment.
+-An html element's end tag may be omitted if the html element is not immediately followed by a comment.
+
+But it is better to use those tags for better code readibility in browser engline,browser may interpret differently if tags are not specified and it will may impact the DOM creation.
+
+// Type of data-
+    typeof(1)           number
+    typeof(1.1)         number
+    typeof('1.1')       string 
+    typeof(true)        boolen
+    typeof(null)        object
+    typeof(undefined)   undefined
+    typeof([])          object
+    typeof({})          object
+    typeof(NaN)         number
+
+//Summary from video "how browser render a website" .
+1. Rendering consists of parsing, layout, paint.
+2. Parsing of html doc takes place, it converts our HTML Doc into DOM Tree.
+3. DOM Tree is then converted into Render Tree. 
+4. Layout takes places which computes which element will be placed where .  
+5. Painting computes bitmaps(coverts img to bits) and composites to screen.
+6. Inline css can be used on section which we want to render first that will delay other components.
+
+///What is prototype?
+Prototypes are the mechanism by which JavaScript objects inherit features from one another.
